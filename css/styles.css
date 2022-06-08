@@ -1,0 +1,91 @@
+body{
+    background-color: rgb(243, 242, 242);
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#main-header{
+    background-color: crimson;
+    color: black;
+}
+
+#navbar{
+    background-color:antiquewhite;
+    color: white;
+}
+
+#navbar ul{
+    padding: 0%;
+    list-style: none;
+}
+
+#navbar li{
+    display: inline;
+}
+
+#navbar a{
+    color:rgb(0, 0, 255);
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+
+#showcase{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2Bx3Abt3V9TGecxLZDewVok9y7bFwQHlTbkfYPX3z-I0eoyM7WWEUF5lqRWbKvW0Vil0&usqp=CAU);
+    background-position: center right;
+    min-height: 300px;
+    margin-bottom: 30px;
+    text-align: center;
+    background-size: cover;
+}
+
+#showcase h1{
+    color: black;
+    font-size: 50px;
+    line-height: 1.6em;
+    padding-top: 30px;
+}
+
+#main{
+    float: left;
+    width: 70%;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: blanchedalmond;
+}
+
+#main-footer{
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px ;
+}
+
+@media(max-width: 600px ){
+    #main{
+        width: 100%;
+        float: none;
+    }
+
+    #sidebar{
+        width: 100%;
+        float: none;
+    }
+}
